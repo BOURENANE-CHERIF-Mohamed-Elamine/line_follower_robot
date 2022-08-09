@@ -41,7 +41,7 @@ try:
                 pr.ChangeDutyCycle(80)
                 pg.ChangeDutyCycle(1)
                 pb.ChangeDutyCycle(1)
-                #servo motor italien b degré t3 90 
+                #servo motor with 90 
                 servo.ChangeDutyCycle(7)
                 time.sleep(5)
                 servo.ChangeDutyCycle(2)
@@ -69,7 +69,7 @@ try:
                 time.sleep(5)
                 #moteur.start()
         else:
-            #default color
+            #default color black
             pr.ChangeDutyCycle(255)
             pg.ChangeDutyCycle(255)
             pb.ChangeDutyCycle(255)
@@ -91,4 +91,3 @@ GPIO.cleanup()
 #Clean things up at the end
 servo.stop()
 GPIO.cleanup()
-print ("Goodbye")
