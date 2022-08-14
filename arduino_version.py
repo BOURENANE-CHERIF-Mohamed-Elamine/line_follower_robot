@@ -1,3 +1,4 @@
+#pip install adafruit-blinka
 from pyfirmata import Arduino,util
 import pyfirmata
 
